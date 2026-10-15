@@ -3,7 +3,7 @@
   "mcpServers": {
     "2phito": {
       "type": "streamable-http",
-      "url": "https://api.salesforce.com/platform/mcp/v1/platform/sobject-reads"
+      "url": "https://2phito-proxy-production.up.railway.app/mcp"
     }
   }
 }
