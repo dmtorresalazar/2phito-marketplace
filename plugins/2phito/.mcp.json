@@ -1,9 +1,9 @@
 {
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
     "2phito": {
-      "type": "streamable-http",
-      "url": "https://2phito-proxy-production.up.railway.app/mcp"
+      "type": "http",
+      "url": "https://2phito-proxy-production.up.railway.app/mcp",
+      "oauth_resource": "https://2phito-proxy-production.up.railway.app/mcp"
     }
   }
 }
