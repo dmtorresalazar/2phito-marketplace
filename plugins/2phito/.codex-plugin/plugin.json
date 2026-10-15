@@ -1,0 +1,29 @@
+{
+  "name": "2phito",
+  "version": "2.0.0",
+  "description": "Read-only access to 2PHITO Control's Salesforce: accounts, contacts, leads, opportunities, tasks, events and pipeline. Cannot create, update or delete records.",
+  "author": {
+    "name": "Zarasa Software Solutions"
+  },
+  "apps": "./.app.json",
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "2Phito",
+    "shortDescription": "Consultas al CRM de 2PHITO",
+    "longDescription": "Consulta el CRM de 2PHITO Control en lenguaje natural: cuentas, contactos, leads, oportunidades, actividades y resumen de pipeline. Solo lectura: cada usuario inicia sesión con su propia cuenta de Salesforce, ve únicamente lo que ya puede ver ahí y no puede crear, modificar ni eliminar registros.",
+    "developerName": "Zarasa Software Solutions",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Read"
+    ],
+    "brandColor": "#D4AA5A",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "Dame la ficha de una de mis cuentas",
+      "¿Cómo está el pipeline abierto por etapa este trimestre?",
+      "¿Qué actividad hubo con mis cuentas en los últimos 7 días?"
+    ]
+  }
+}
