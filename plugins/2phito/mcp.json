@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "2phito-salesforce": {
+    "2phito": {
       "type": "streamable-http",
       "url": "https://api.salesforce.com/platform/mcp/v1/platform/sobject-reads",
       "extensions": {

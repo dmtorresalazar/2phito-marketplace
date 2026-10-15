@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "2phito-salesforce",
+  "name": "2phito",
   "version": "1.2.0",
   "description": "Read-only access to 2PHITO Control's Salesforce: accounts, contacts, leads, opportunities, tasks, events and pipeline. Cannot create, update or delete records.",
   "author": {
@@ -10,7 +10,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "2PHITO",
+        "displayName": "2Phito",
         "shortDescription": "Consultas al CRM de 2PHITO",
         "longDescription": "Consulta el CRM de 2PHITO Control en lenguaje natural: cuentas, contactos, leads, oportunidades, actividades y resumen de pipeline. Solo lectura: cada usuario inicia sesión con su propia cuenta de Salesforce, ve únicamente lo que ya puede ver ahí y no puede crear, modificar ni eliminar registros.",
         "developerName": "Zarasa Software Solutions",

@@ -1,10 +1,10 @@
 {
-  "name": "zarasa-2phito",
-  "interface": { "displayName": "Zarasa – 2PHITO" },
+  "name": "2phito",
+  "interface": { "displayName": "2Phito" },
   "plugins": [
     {
-      "name": "2phito-salesforce",
-      "source": { "source": "local", "path": "./plugins/2phito-salesforce" },
+      "name": "2phito",
+      "source": { "source": "local", "path": "./plugins/2phito" },
       "category": "Productivity"
     }
   ]

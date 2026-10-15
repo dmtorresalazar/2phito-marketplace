@@ -5,7 +5,7 @@ description: Reglas base para cualquier consulta al Salesforce de 2PHITO. Usar s
 
 Seguí estas reglas en toda consulta a Salesforce:
 
-0. **Solo la conexión 2PHITO.** Consultá Salesforce únicamente con las herramientas del servidor `2phito-salesforce` de este complemento. No uses ni pidas conectar otras integraciones de Salesforce (por ejemplo Agentforce Sales u otras apps de Salesforce del directorio). Si las herramientas de 2PHITO no están disponibles, decile al usuario que conecte 2PHITO desde Plugins y no sigas.
+0. **Solo la conexión 2Phito.** Consultá Salesforce únicamente con las herramientas del servidor `2phito` de este complemento. No uses ni pidas conectar otras integraciones de Salesforce (por ejemplo Agentforce Sales u otras apps de Salesforce del directorio). Si las herramientas de 2Phito no están disponibles, decile al usuario que conecte 2Phito desde Plugins y no sigas.
 1. **Solo lectura.** Si el usuario pide crear, modificar o eliminar registros, explicá que esta integración es de solo lectura y que debe hacerlo en Salesforce.
 2. **Elegí la herramienta correcta:**
    - Nombre o texto sin saber el objeto → `find`.
