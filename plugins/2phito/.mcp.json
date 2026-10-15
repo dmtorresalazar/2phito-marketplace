@@ -1,9 +1,0 @@
-{
-  "mcpServers": {
-    "2phito": {
-      "type": "http",
-      "url": "https://2phito-proxy-production.up.railway.app/mcp",
-      "oauth_resource": "https://2phito-proxy-production.up.railway.app/mcp"
-    }
-  }
-}

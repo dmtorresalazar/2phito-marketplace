@@ -1,12 +1,11 @@
 {
   "name": "2phito",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Read-only access to 2PHITO Control's Salesforce: accounts, contacts, leads, opportunities, tasks, events and pipeline. Cannot create, update or delete records.",
   "author": {
     "name": "Zarasa Software Solutions"
   },
   "apps": "./.app.json",
-  "mcpServers": "./.mcp.json",
   "skills": "./skills/",
   "interface": {
     "displayName": "2Phito",
