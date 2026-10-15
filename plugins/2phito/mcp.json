@@ -3,26 +3,7 @@
   "mcpServers": {
     "2phito": {
       "type": "streamable-http",
-      "url": "https://api.salesforce.com/platform/mcp/v1/platform/sobject-reads",
-      "extensions": {
-        "com.openai": {
-          "auth": {
-            "type": "oauth",
-            "client": {
-              "mode": "provided",
-              "clientId": "3MVG9rZjd7MXFdLj037z5Zv8DEMjy1j.P8jcj4waVivn3.8csEjS6DosI.J3Uurm7ATNkveF3WnDLCvP42VrL",
-              "tokenEndpointAuthMethod": "client_secret_post"
-            },
-            "authorizationUrl": "https://login.salesforce.com/services/oauth2/authorize",
-            "tokenUrl": "https://login.salesforce.com/services/oauth2/token",
-            "baseScopes": [
-              "mcp_api",
-              "refresh_token"
-            ],
-            "oidcEnabled": false
-          }
-        }
-      }
+      "url": "https://api.salesforce.com/platform/mcp/v1/platform/sobject-reads"
     }
   }
 }
