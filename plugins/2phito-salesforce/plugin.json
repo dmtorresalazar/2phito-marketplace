@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "2phito-salesforce",
+  "version": "1.2.0",
+  "description": "Read-only access to 2PHITO Control's Salesforce: accounts, contacts, leads, opportunities, tasks, events and pipeline. Cannot create, update or delete records.",
+  "author": {
+    "name": "Zarasa Software Solutions"
+  },
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "2PHITO",
+        "shortDescription": "Consultas al CRM de 2PHITO",
+        "longDescription": "Consulta el CRM de 2PHITO Control en lenguaje natural: cuentas, contactos, leads, oportunidades, actividades y resumen de pipeline. Solo lectura: cada usuario inicia sesión con su propia cuenta de Salesforce, ve únicamente lo que ya puede ver ahí y no puede crear, modificar ni eliminar registros.",
+        "developerName": "Zarasa Software Solutions",
+        "category": "Business & Operations",
+        "capabilities": ["Read"],
+        "brandColor": "#D4AA5A",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png",
+        "defaultPrompt": [
+          "Dame la ficha de una de mis cuentas",
+          "¿Cómo está el pipeline abierto por etapa este trimestre?",
+          "¿Qué actividad hubo con mis cuentas en los últimos 7 días?",
+          "Buscá los leads nuevos de esta semana"
+        ]
+      }
+    }
+  }
+}
